@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app"><!--
     <img src="./assets/logo.png">
     <div>
       <p>
@@ -9,16 +9,17 @@
       </p>
       <van-button type="primary">Button</van-button>
     </div>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Welcome to Your Vue.js App" />-->
+    <ToBar/>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import ToBar from '@/components/ToBar.vue'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ToBar
   }
 }
 </script>
@@ -30,6 +31,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
