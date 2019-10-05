@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vantvue
 
 ## Project setup
@@ -28,3 +29,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+=======
+# vantvue
+>>>>>>> 403ff290272f66f33e71ad906184b89b8c2c10cd
